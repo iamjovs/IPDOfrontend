@@ -3,7 +3,7 @@ import "./reusable.css";
 
 const Button = (props) => {
     return (
-        <button type={props.type} className={props.btncolor}>
+        <button type={props.type} className={props.btncolor} onClick={props.onClick}>
             {props.children}
         </button>
     );

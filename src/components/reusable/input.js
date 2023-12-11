@@ -3,7 +3,7 @@ import "./reusable.css";
 
 const Input = (props) => {
     return (
-        <input name={props.name} placeholder={props.placeholder}/>
+        <input name={props.name} placeholder={props.placeholder} value={props.value} onChange={props.onChange}/>
     );
 };
 
