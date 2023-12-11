@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    border-radius: 0.6rem;
+    border: 0.1px solid gainsboro;
+    align-items: center;
+    background-color: #fff;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    padding: 20px 0 28px;
+}
+
+input {
+  width: 90%;
+  font-size: 1rem;
+  padding: 0.6rem;
+  text-indent: 0.5rem;
+  line-height: 2rem;
+  border-radius: 0.6rem;
+  border: 0.1px solid gainsboro;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  width: 90%;
+  padding: 0.5rem;
+  line-height: 2rem;
+  border-radius: 0.6rem;
+  color: white;
+  border: 0.1px solid gainsboro;
+}
+
+.green {
+  background-color: #42b72a;
+}
+
+.grey {
+  background-color: grey;
+}
+

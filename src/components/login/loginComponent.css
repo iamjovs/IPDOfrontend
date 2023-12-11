@@ -1,0 +1,69 @@
+@import '~typeface-roboto/index.css';
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Robot, "Droid Sans", Helvetica, sans-serif;
+    -webkit-text-size-adjust: none;
+  }
+
+  .background{
+    position: relative;
+    display: block;
+    background: url('../../../src/img/essumain.jpg') no-repeat center center / cover;
+  }
+
+  .layer{
+    position: relative;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(240, 242, 245, 0.8);
+  }
+
+  .container{
+    width: 30%;
+  }
+
+  a {
+    font-size: 1rem;
+    color: #42b72a;
+  }
+  
+  .line {
+    border-top: 1px solid gainsboro;
+    width: 90%;
+  
+  }
+
+  
+.titleContainer {
+  display: flex;  
+}
+
+.titleContainer .upper {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleContainer h1 {
+  color: green;
+  font-size: 2.5rem;
+  font-weight: 900px;
+  margin-top: 1rem;
+}
+
+.titleContainer h2 {
+  margin-top: 0.2rem;
+  font-weight: bolder;
+}
+
+.titleContainer img {
+  width: 150px;
+  height: 150px;
+  margin: 0.5rem;
+}
+  
